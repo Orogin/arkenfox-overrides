@@ -32,7 +32,7 @@ user_pref("browser.display.use_system_colors",                		false);
 
 user_pref("privacy.resistFingerprinting.letterboxing", 				false);
 user_pref("layout.css.prefers-color-scheme.content-override", 		0);
-user_pref("browser.zoom.siteSpecific", 								true);
+user_pref("browser.zoom.siteSpecific", 								        true);
 
 /**********************************************************************
  * 2 · DNS-over-HTTPS to DNS0  (TRR-only)
@@ -101,3 +101,4 @@ user_pref("extensions.quarantinedDomains.enabled", false);
 /**********************************************************************
  *  END  – Restart Firefox to apply
  **********************************************************************/
+
