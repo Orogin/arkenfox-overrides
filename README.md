@@ -12,23 +12,26 @@ This is a minimalist, usability-friendly `user-overrides.js` file for [arkenfox/
 * Retains session, cookie, and history data
 * Allows DRM and PDF viewer for usability
 * LocalCDN-friendly (preserves cache)
+* uBlock Origin friendly — Firefox’s built-in tracking protection is disabled to avoid duplication. This config does not interfere with uBO’s cosmetic filtering, logger, or dynamic filtering behavior.
 
 ---
 
 ## 📥 How to Use
 
 1. Download or clone [arkenfox/user.js](https://github.com/arkenfox/user.js)
-2. Save [`user-overrides.js`](./user-overrides.md) in the same directory
+2. Download the ZIP file below and extract `user-overrides.js`
 3. Place both files in your Firefox profile folder
-4. Run the [arkenfox updater script](https://github.com/arkenfox/user.js/wiki/Updater-scripts) **or** manually apply them
+4. Run the [arkenfox updater script](https://github.com/arkenfox/user.js/wiki/Updater-scripts) or apply manually
 5. Launch Firefox — settings will be applied on startup
 
 ---
 
 ## 📄 File Content
 
-View the full `user-overrides.js` config here:
-[→ user-overrides.md](./user-overrides.md)
+The archive includes:
+
+* `user-overrides.js`: override config (for Firefox profile)
+* `README.md`: usage instructions
 
 ---
 
@@ -47,4 +50,4 @@ This configuration assumes external tools (like DNS0, uBlock Origin, etc.) handl
 
 ## 📝 License
 
-This override is shared under the same terms as [arkenfox/user.js](https://github.com/arkenfox/user.js#license): MIT License.
+Shared under the same terms as [arkenfox/user.js](https://github.com/arkenfox/user.js#license): MIT License.
