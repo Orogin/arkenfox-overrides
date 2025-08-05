@@ -16,7 +16,7 @@ This is a clean, pragmatic override file for [arkenfox/user.js](https://github.c
 * Reasonable UX (DRM allowed, history/cookies retained)
 * Compatibility with LocalCDN and external add-ons
 
-Copy the content into a `user-overrides.js` file and load it *after* importing the official `user.js` in your Firefox profile.
+Save this as `user-overrides.js` in your Firefox profile alongside `user.js`.
 
 ---
 
@@ -119,14 +119,9 @@ user_pref("extensions.quarantinedDomains.enabled", false);
 ## 💡 Usage Instructions
 
 1. Download or clone the latest `user.js` from [arkenfox/user.js](https://github.com/arkenfox/user.js).
-2. Save the above code as `user-overrides.js` in the same directory.
-3. Concatenate both files:
-
-   ```bash
-   cat user.js user-overrides.js > user.js.final
-   ```
-4. Place `user.js.final` in your Firefox profile directory.
-5. Launch Firefox. Your new settings will apply.
+2. Save this file as `user-overrides.js` in the same folder.
+3. Run your preferred [arkenfox updater script](https://github.com/arkenfox/user.js/wiki/Updater-scripts) or manually copy both files into your Firefox profile.
+4. Launch Firefox. Your settings will apply automatically.
 
 ---
 
