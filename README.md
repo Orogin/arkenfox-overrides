@@ -35,7 +35,7 @@ View the full `user-overrides.js` config here:
 ## 🧑‍💻 Maintainer
 
 **Orogin**
-[github.com/Orogin](https://github.com/Orogin) *(optional)*
+[github.com/Orogin](https://github.com/Orogin)
 
 ---
 
